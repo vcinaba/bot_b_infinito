@@ -1,0 +1,30 @@
+{
+  "name": "bot_b_infinito",
+  "version": "1.0.0",
+  "description": "Retrieve \"B do infinito\" yield",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcinaba/bot_b_infinito.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vcinaba/bot_b_infinito/issues"
+  },
+  "homepage": "https://github.com/vcinaba/bot_b_infinito#readme",
+  "dependencies": {
+    "pino": "^10.4.0",
+    "pino-pretty": "^13.2.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "github:pedroslopez/whatsapp-web.js#main"
+  },
+  "allowScripts": {
+    "puppeteer@24.38.0": true
+  }
+}
